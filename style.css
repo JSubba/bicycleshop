@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Water+Brush&display=swap");
+
 :root {
   --black: #252525;
   --white: #f5f5f5;
@@ -11,7 +13,7 @@
 }
 
 body {
-  font-family: monospace;
+  font-family: monospace, serif;
   color: var(--black);
 }
 
@@ -88,7 +90,7 @@ i:hover {
 .navbar {
   width: 100%;
   height: 80px;
-  padding: 0 20px;
+  padding: 0 30px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -97,7 +99,9 @@ i:hover {
 }
 
 .logo {
-  width: 100px;
+  font-size: 2rem;
+  color: var(--white);
+  font-family: "Water Brush", cursive;
 }
 
 .menu {
@@ -192,7 +196,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: var(--black);
-  color: var(--white);
+  color: var(--gray);
   padding: 20px;
 }
 

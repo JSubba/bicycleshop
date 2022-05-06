@@ -4,12 +4,126 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>BICYCLE SHOP</title>
   </head>
   <body>
-    <h1>Bicycle Shop Website</h1>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+        <ul class="menu">
+          <a href="#"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#products"><li>Products</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <div class="close-icon">
+          <i class="fa-solid fa-x"></i>
+        </div>
+      </nav>
+      <ul class="mobile-menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#products"><li>Products</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+      <section class="hero"></section>
+    </header>
 
+    <section id="about" class="about">
+      <div class="container">
+        <h1>About Us</h1>
+        <div class="about-us">
+          <div class="about-left">
+            <img src="img/about.jpg" alt="about" />
+          </div>
+          <div class="about-right">
+            <h2>Jintensaya</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
+              non, enim repudiandae velit hic quidem temporibus sequi iusto qui
+              cumque libero fuga modi odio consequatur assumenda recusandae ex.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
+              non, enim repudiandae.
+            </p>
+            <a href="#">
+              <button class="about-button">See More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <h1>Our Products</h1>
+        <div class="bicycles">
+          <img src="img/bicycle1.jpg" alt="bicycle" />
+          <img src="img/bicycle2.jpg" alt="bicycle" />
+          <img src="img/bicycle3.jpg" alt="bicycle" />
+          <img src="img/bicycle4.jpg" alt="bicycle" />
+          <img src="img/bicycle5.jpg" alt="bicycle" />
+          <img src="img/bicycle6.jpg" alt="bicycle" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h1>Contact</h1>
+      <div class="container">
+        <div class="contact-us">
+          <form>
+            <label for="">Name:</label><br />
+            <input type="text" placeholder="name" required /><br />
+            <label for="">Email:</label>
+            <br />
+            <input type="email" placeholder="email" required /><br />
+            <label for="">Message:</label>
+            <br />
+            <textarea
+              name=""
+              id=""
+              cols="21"
+              rows="5"
+              placeholder="message"
+            ></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9191.626450061793!2d139.62070470098024!3d35.46146100599075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c42f971e1ff%3A0x702e95bea7adb044!2sMinatomirai%2C%20Nishi%20Ward%2C%20Yokohama%2C%20Kanagawa%20220-0012!5e0!3m2!1sen!2sjp!4v1651806259161!5m2!1sen!2sjp"
+            >
+              style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <p>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </p>
+      </div>
+      <p>&copy;JINTESAYA | All Rights Reserved | 2022</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

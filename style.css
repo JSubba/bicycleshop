@@ -133,6 +133,8 @@ i:hover {
   background-image: url("img/hero.jpg");
   background-size: cover;
   background-position: center;
+  animation: fadeInDown;
+  animation-duration: 2s;
 }
 
 .about-us {
